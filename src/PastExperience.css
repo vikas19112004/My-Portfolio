@@ -1,0 +1,52 @@
+.pastExperience {
+    background-color: rgb(21, 16, 40);
+    color: white;
+}
+
+.pastExperience>hr {
+    height: 1px;
+    background: linear-gradient(to right, rgb(0, 0, 0), white, rgb(0, 0, 0));
+    border: none;
+}
+
+.cloudafe  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 0;
+}
+
+.cloudafe img {
+    width: 7rem;
+    border: 2px solid rgb(47, 213, 255);
+    border-radius: 5px;
+}
+
+.cloudafe hr {
+    width: 6.7rem;
+    margin-top: 0.5rem;
+    border: none;
+    height: 1px;
+    background-color: white;
+}
+
+.cloudafe .verticle {
+    width: 2px;
+    border: none;
+    height: 3rem;
+    background-color: white;
+}
+
+.cloudafe h3 {
+    font-size: larger;
+    font-weight: 500;
+    color: rgb(200, 155, 255);
+}
+
+.cloudafe p {
+    font-size:12px;
+    color: rgb(100, 100, 100);
+    width: 9rem;
+    line-height: 0.8rem;
+}

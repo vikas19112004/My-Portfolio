@@ -1,0 +1,31 @@
+.image {
+    height: 75vh;
+    width: 100%;
+    background-image: url("C:\Users\vdevi\OneDrive\Desktop\vikas\port-folio\portfolio\src\assets\vikas.jpeg");
+    background-size: contain;
+    background-position-x: 100%;
+    color: white;
+}
+
+.upperDiv {
+    z-index: 1;
+    height: 80vh;
+    width: 100%;
+    background: linear-gradient(to right, rgb(21, 16, 40) 45%, rgba(0, 0, 0, 0.639), rgba(0, 0, 0, 0));
+    display: flex;
+    align-items: center;
+}
+
+.intro {
+    height: 60%;
+    width: 55%;
+    margin-left: 6rem;
+    margin-top: 2rem;
+    letter-spacing: 2px;
+    line-height: 3rem;
+}
+
+.intro h2 {
+    font-size: 30px;
+    font-weight: 500;
+}
