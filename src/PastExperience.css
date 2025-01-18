@@ -28,7 +28,7 @@
     margin-top: 0.5rem;
     border: none;
     height: 1px;
-    background: linear-gradient(to right, rgb(0, 0, 0), white, rgb(0, 0, 0));
+    background: linear-gradient(to right, rgb(21, 16, 40), white, rgb(21, 16, 40));
 }
 
 .cloudafe .verticle {
