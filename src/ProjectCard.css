@@ -1,6 +1,6 @@
 .projectCard {
-    height: 16rem;
-    width: 12rem;
+    height: 17rem;
+    width: 14rem;
     background-color: rgba(39, 219, 255, 0.178);
     border: 1px solid rgb(145, 145, 145);
     border-radius: 10px;
@@ -15,7 +15,7 @@
 }
 
 .projectCard p {
-    font-size: 13px;
+    font-size: 0.9rem;
     margin: 0.5rem;
-    line-height: 1rem;
+    line-height: 1.1rem;
 }

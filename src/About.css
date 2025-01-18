@@ -5,20 +5,32 @@
 }
 
 .about h3 {
-    font-size: 20px;
+    font-size: 2rem;
     font-weight: 600;
     margin-bottom: 1rem;
 }
 
 .about p {
     margin: 0.5rem 0 0 7rem;
-    font-size: 15px;
+    font-size: 1.1rem;
     line-height: 1.1rem;
 }
 
 #hello {
-    font-size: 20px;
+    font-size: 1.5rem;
 }
 .about p span {
     color: rgb(255, 157, 95);
+}
+
+@media (max-width: 600px) {
+    .about {
+        padding: 2rem 3rem;
+    }
+
+    .about p {
+        margin: 0.5rem 0 0 1rem;
+        font-size: 13px;
+        line-height: 1rem;
+    }
 }

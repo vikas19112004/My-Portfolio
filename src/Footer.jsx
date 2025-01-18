@@ -18,6 +18,12 @@ function Footer() {
                 </div>
             </div>
             <hr />
+            <div class="footerIcon">
+                <a href=""><i class="fa-brands fa-instagram " id="insta"></i></a>
+                <a href=""><i class="fa-brands fa-square-facebook " id="face"></i></a>
+                <a href=""><i class="fa-brands fa-square-x-twitter " id="twit"></i></a>
+                <a href=""><i class="fa-brands fa-telegram " id="telg"></i></a>
+            </div>
         </div>
     );
 }

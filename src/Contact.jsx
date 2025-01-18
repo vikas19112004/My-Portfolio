@@ -32,7 +32,7 @@ function Contact() {
                 <label htmlFor="tel">Mobile: </label>
                 <input type="tel" id="tel" placeholder="1234567890" name="tel" value={contactDetails.tel} onChange={handleChange} required/>
             </div>
-            <div>
+            <div id="checkbox">
                 <input type="checkbox" id="checkbox" />
                 <label htmlFor="checkbox">Want to work on a project.</label>
             </div>

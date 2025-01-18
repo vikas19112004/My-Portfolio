@@ -18,35 +18,41 @@
 }
 
 .cloudafe img {
-    width: 7rem;
+    width: 10rem;
     border: 2px solid rgb(47, 213, 255);
     border-radius: 5px;
 }
 
-.cloudafe hr {
-    width: 6.7rem;
+.cloudafe>hr {
+    width: 10rem;
     margin-top: 0.5rem;
     border: none;
     height: 1px;
-    background-color: white;
+    background: linear-gradient(to right, rgb(0, 0, 0), white, rgb(0, 0, 0));
 }
 
 .cloudafe .verticle {
-    width: 2px;
+    width: 1px;
     border: none;
     height: 3rem;
     background-color: white;
 }
 
 .cloudafe h3 {
-    font-size: larger;
+    font-size:1.3rem;
     font-weight: 500;
     color: rgb(200, 155, 255);
 }
 
 .cloudafe p {
-    font-size:12px;
+    font-size:0.9rem;
     color: rgb(100, 100, 100);
-    width: 9rem;
-    line-height: 0.8rem;
+    width: 10rem;
+    line-height: 1rem;
+}
+
+@media (max-width: 600px) {
+    .cloudafe {
+        padding: 3rem 0rem;
+    }
 }
