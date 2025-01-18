@@ -1,5 +1,6 @@
 import "./Contact.css"
 import { useState } from "react";
+import emailjs from 'emailjs-com';
 
 function Contact() {
 
@@ -14,6 +15,18 @@ function Contact() {
 
     function handleSubmit(event) {
         event.preventDefault();
+
+        emailjs.send("service_l7vx9ee","template_5fvmy8w", {
+            email: contactDetails.email,
+            mobile: contactDetails.tel,
+        }, "up8La4qOIgPoNILwP")
+        .then(() => {
+            alert("Details sent successfully!");
+        })
+        .catch(() => {
+            console.log("Faild to send details!");
+        });
+
         setContactDetails({
             email: "",
             tel: ""
