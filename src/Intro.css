@@ -1,7 +1,7 @@
 .image {
     /* height: 75vh; */
     width: 100%;
-    background-image: url("C:\Users\vdevi\OneDrive\Desktop\vikas\port-folio\portfolio\src\assets\Photo.jpeg");
+    background-image: url("src/assets/Photo.jpeg");
     background-size: contain;
     background-position-x: 100%;
     color: white;
