@@ -3,8 +3,8 @@ import ProjectCard from "./ProjectCard";
 
 function Projects() {
     let url = [
-        "C:\Users\vdevi\OneDrive\Desktop\vikas\port-folio\portfolio\src\assets\project-img1.jpg",
-        "C:\Users\vdevi\OneDrive\Desktop\vikas\port-folio\portfolio\src\assets\project-img2.png"
+        "src/assets/project-img1.jpg",
+        "src/assets/project-img2.png"
     ];
     let content = [
         "I have worked on hosting page of cloudafe.in. Which is the website of Cloudafe corporation.",
