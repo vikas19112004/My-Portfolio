@@ -4,7 +4,7 @@ import ProjectCard from "./ProjectCard";
 function Projects() {
     let url = [
         "./src/assets/project-img1.jpg",
-        "./src/assets/project-img2.png"
+        "./src/assets/project-img2.jpg"
     ];
     let content = [
         "I have worked on hosting page of cloudafe.in. Which is the website of Cloudafe corporation.",
