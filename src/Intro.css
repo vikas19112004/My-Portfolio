@@ -1,28 +1,23 @@
-.image {
+.intro-bg {
     /* height: 75vh; */
     width: 100%;
-    background-image: url("/vikas.jpg");
-    background-size: contain;
+    background: linear-gradient(to right, rgb(21, 16, 40) 30%, rgba(21, 16, 40, 0.5), rgba(0, 0, 0, 0) 100%), url("/bg.jpg");
+    background-size: cover;
     background-position-x: 100%;
     color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 80vh;
 }
 
-.upperDiv {
-    z-index: 1;
-    height: 80vh;
-    width: 100%;
-    background: linear-gradient(to right, rgb(21, 16, 40) 55%, rgba(0, 0, 0, 0));
-    display: flex;
-    align-items: center;
-}
 
 .intro {
-    /* height: 60%; */
     width: 55%;
-    margin-left: 6rem;
-    margin-top: 2rem;
     letter-spacing: 2px;
     line-height: 3rem;
+    
 }
 
 .intro h2 {
@@ -31,20 +26,23 @@
     line-height: 4rem;
 }
 
-@media (max-width: 600px) {
+.intro-bg img {
+    height: 50%;
+    border: 3px rgb(105, 255, 195) solid;
+    border-radius: 50%;
+    box-shadow: 0 0 20px rgb(105, 255, 195), 0 0 20px rgb(105, 255, 195) inset;
+}
 
-    .image {
-        background-size: cover;
-    }
+@media (max-width: 700px) {
 
-    .upperDiv {
-        background: linear-gradient(to right, rgba(21, 16, 40, 0.8) 30%, rgba(0, 0, 0, 0));
+    .intro-bg {
+        background: linear-gradient(rgb(21, 16, 40) 30%, rgba(21, 16, 40, 0.5), rgba(0, 0, 0, 0) 100%), url("/bg.jpg");
+        flex-direction: column;
+        height: 90vh;
     }
 
     .intro {
-        height: 60%;
         width: 75%;
-        margin: -1rem 1rem 3rem 3rem;
         letter-spacing: 2px;
         line-height: 2rem;
     }
@@ -52,5 +50,9 @@
     .intro h2 {
         font-size: 1.5rem;
         line-height: 2rem;
+    }
+
+    .intro-bg img {
+        height: 40%;
     }
 }

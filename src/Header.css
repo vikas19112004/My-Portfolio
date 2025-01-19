@@ -3,15 +3,16 @@
     backdrop-filter: blur(5px);
     position: sticky;
     z-index: 2;
-    top: 0rem;
+    top: 0px;
     border-bottom: 1px solid rgb(145, 102, 255);
     color: white;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     width: 100%;
     height: 4rem;
+    /* margin-bottom: ; */
 }
 
 .myName {
@@ -21,7 +22,7 @@
     font-weight: bold;
     font-size: 2rem;
     letter-spacing: 1px;
-    margin-left: -90px;
+    /* margin-left: -90px; */
     background: linear-gradient(to right, #fc72ff, #8f68ff, #487bff, #8f68ff, #fc72ff);
     background-size: 200%;
     background-clip: text;
@@ -39,9 +40,10 @@
 .headerButtons {
     display: flex;
     flex-direction: row;
-    gap: 2rem;
+    justify-content: space-evenly;
+    width: 35%;
     background-color: inherit;
-    margin-right: -70px;
+    /* margin-right: -70px; */
 }
 
 .headerButtons li {
@@ -66,9 +68,11 @@
     background-color: rgb(70, 70, 70);
 }
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
     .Header {
         flex-direction: column;
+        align-items: center;
+        justify-content: center;
         height: 6rem;
         align-items: center;
         position: sticky;
@@ -83,6 +87,7 @@
         gap: 0.8rem;
         margin-right: 0px;
         font-size: 13px;
+        width: 80%;
     }
 
     .headerButtons li a {
